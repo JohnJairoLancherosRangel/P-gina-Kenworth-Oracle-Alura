@@ -1,0 +1,308 @@
+body{
+  background-color:azure;
+  font-family: 'Phudu', cursive;
+}
+
+header {
+  background-color: black;
+  padding: 10px 0;
+  font-family: 'Phudu', cursive;
+}
+
+.caja {
+  position: relative;
+  width: 940px;
+  /* Arriba | Derecha | Abajo | Izquierda */
+  margin: 0px auto 0px 10px;
+}
+
+nav {
+  position: absolute;
+  top: 10px;
+  right: 0%;
+}
+
+nav li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+.productos {
+  width: 980px;
+  /* Arriba | Derecha | Abajo | Izquierda */
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.productos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  color: aliceblue;
+  background-color: black;
+  margin: 0 1.5%;
+  padding: 30px 30px;
+  box-sizing: border-box;
+
+  /* width | style | color | Izquierda */
+  border: 2px solid red;
+  border-radius: 30px;
+}
+
+.productos li:hover {
+  border-color: yellow;
+}
+.productos li:active {
+  border-color: greenyellow;
+}
+
+.productos li:hover h2 {
+  color: yellow;
+  font-size: 33px;
+}
+
+.productos h2 {
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.descripcion {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.precio {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  /*background: url(imágenes/fondo.jpg);*/
+  padding: 30px;
+}
+
+.Copyright {
+  color: white;
+  /*font-weight: bold;*/
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+
+form {
+
+  padding: 50px;
+  width: 940px;
+  /* Arriba | Derecha | Abajo | Izquierda */
+  margin: 0% 50px 50px auto;
+  /*border: 10px solid black;
+  border-radius: 2px;
+  border-color: black;
+  border-radius: 10px;*/
+  
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padron{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox{
+  margin: 20px 0;
+}
+
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: yellow;
+  background-color: black;
+  border-color: red;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover{
+  background: yellow;
+  color: black;
+  border-color: black;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+
+  transform: scale(1.1) rotate(360deg);
+
+}
+
+.tabla{
+    margin: 40px 40px;
+    
+}
+
+thead{
+  background-color: black;
+  color: yellow;
+  font-weight: bold;
+}
+
+td,th{
+  border: solid 2px red;
+  font-weight: bold;
+  padding: 15px 15px; 
+}
+
+/* CSS para HOME */
+
+.banner{
+  width: 100%;
+}
+
+.tituloprincipal{
+  text-align: center;
+  font-size: 2em;
+  margin: 1em 0 1em;
+  clear: left;
+  text-shadow: .5px .5px red;
+}
+
+.tituloprincipal:first-letter{
+  font-weight: bold;
+}
+
+.principal{
+  background: linear-gradient(white 80%,beige);
+  padding: 2em 0;
+}
+
+.contenidoprincipal{
+  width: 940px;
+  margin: 0% auto;
+
+}
+
+.principal p{
+  margin: 0 0 1em;
+}
+
+.principal strong{
+  font-weight: bold;
+}
+
+.principal em{
+  font-style: italic;
+}
+
+.camionnegro{
+  width: 330px;
+  float:left;
+  margin: 0px 20px 10px 0px;
+}
+
+.diferenciales{
+  padding: 2em 0;
+  background-color: beige;
+}
+
+.contenidodiferenciales{
+  width: 640px;
+  margin: 0 auto;
+}
+
+.imagendiferenciales{
+  width: 60%;
+  transition: 400ms;
+  box-shadow: 10px 10px 1px 2px black;
+  
+}
+
+.imagendiferenciales:hover{
+  opacity: 0.8;
+}
+
+.listadiferenciales{
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.items{
+  line-height: 1.5;
+}
+
+.items::before{
+  content: "✅ ";
+}
+
+.items:first-child{
+  font-weight: bold;
+}
+
+.mapa{
+  padding: 2em 0;
+  background: linear-gradient(beige 80%,white);
+}
+
+.mapa p{
+  margin: 0 0 2em;
+  text-align: center;
+}
+
+.mapacontenido{
+  width: 940px;
+  margin: 0% auto;
+}
+
+.video{
+  padding: 2em 0;
+  background-color: white;
+}
+
+.videocontenido{
+  width: 940px;
+  margin: 0% auto;
+}
+
+@media screen and (max-width:480px){
+
+  h1{
+    text-align: center;
+  }
+  nav{
+    position: static;
+  }
+  .caja , .principal , .mapacontenido , .contenidodiferenciales, .videocontenido , .contenidoprincipal{
+    width: auto;
+  }
+  .listadiferenciales, .imagendiferenciales{
+    width: 100%;
+  }
+
+}

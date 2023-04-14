@@ -1,0 +1,47 @@
+* Instalar Paquete NPM Typescript:
+
+npm install -g typescript
+
+* Configurar Paquete NPM:
+
+npm init
+
+* Instalar Servidor NPM (Servidor Web Navegador - Dependencia):
+
+npm install --save-dev lite-server
+
+* Poner en Scripts:  "start": "lite-server"
+
+* Ejecutar "lite-server":
+
+npm run start
+
+* Ejecutar Archivo Typescript (.ts)  -- Crea el Mismo Archivo Traducido a .js: 
+
+tsc nombrearchivo.ts
+
+---------------------- SOLUCION DE PROBLEMA POR PERMISOS ------------------
+PRIMERA SOLUCIÓN:
+------------------
+- INSTALAR TYPESCRIPT DE MANERA GLOBAL O CUALQUIER OTRO FRAMEWORK O PROGRAMA QUE TENGAN QUE UTILIZAR.
+npm install -g typescript
+
+SEGUNDA SOLUCIÓN:
+-------------------
+Abrir una terminal en Powershell con permisos de administrador y ejecutar este comando:
+
+Set-ExecutionPolicy Unrestricted
+
+Teclear letra O y darle Enter.
+
+TERCERA SOLUCIÓN:
+------------------
+Ejecutar windows + R = gpedit.msc
+ir a Plantillas administrativas- Componentes de Windows- Windows PowerShell-
+Seleccionar Activar la ejecución de scripts, click derecho, editar
+Seleccionar Habilitada y Permitir todos los scripts, Aplicar
+Con eso ya debería poder ejecutar scripts el powershell.
+
+* Actualizar Cambios Que se Hacen en el TS Automáticamente:
+
+tsc -w nombrearchivo.ts

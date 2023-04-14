@@ -1,0 +1,36 @@
+body{
+    background: #CCCCCC;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color:red;
+}
+
+#kw{
+    width: auto;
+    height:auto;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+}
+
+.items{
+    font-style: italic;
+}
